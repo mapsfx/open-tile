@@ -1,0 +1,10 @@
+1. Install Vagrant
+2. Install "Reload" plugin by typing: vagrant plugin install vagrant-reload
+3. Check the memory & CPUs assigned to the vm in the Vagrant file, change as appropriate.
+4. Edit "bootstrap2.sh" and change the "C_MEM" sed command if you changed the memory in #3.
+5. Edit "bootstrap2.sh" and change the last command to import the data you want.
+6. vagrant up
+7. Change the virtualbox network setting to "host only" & reboot. 
+8. Edit the .geo file for the IP the vm has and copy it to the appropriate xastir folder.
+9. Select the map in xastir.
+10. PROFIT!
